@@ -22,7 +22,7 @@ const Landing = (props) => {
           <Education />
           <SocialMedia />
           <h6 className="devloper-name">
-            Developed by &copy; Abhilash Thankachan{" "}
+            Developed by &copy; Eldhose M Peter{" "}
           </h6>
         </div>
       </BodyWrapper>

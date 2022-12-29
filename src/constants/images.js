@@ -1,5 +1,5 @@
-import covidAppImage from "../assets/projects/covidApp.png";
-import musicPlayerImage from "../assets/projects/musicPlayer.png";
+import paw from "../assets/projects/paw.png";
+import tech from "../assets/projects/tech.png";
 
-const images = { covidAppImage, musicPlayerImage };
+const images = { paw, tech };
 export default images;

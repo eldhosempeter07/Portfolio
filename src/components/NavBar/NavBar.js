@@ -7,7 +7,7 @@ import { HiCloudDownload } from "react-icons/hi";
 import { THEMES } from "../../constants/theme";
 import { changeTheme } from "../../actions/themeActions";
 import { Link } from "react-scroll";
-import resume from "../../assets/resume/AbhilashThankachan-ReactJS.pdf";
+import resume from "../../assets/resume/Eldhose-M-Peter Resume.pdf";
 import logo from "../../assets/Ab_icon.png";
 
 const NavBar = () => {
@@ -43,21 +43,14 @@ const NavBar = () => {
               to="portfolio"
               spy={true}
               smooth={true}
-              offset={-170}
+              offset={-100}
               duration={100}
-              id="text"
+              className="nav-link"
               onClick={() => {
-                if (isNavOpen) setIsNavOpen(!isNavOpen);
+                setIsNavOpen(!isNavOpen);
               }}
             >
-              <img
-                src={logo}
-                alt="logo"
-                className="logo"
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="Home"
-              />
+              Home
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle
@@ -136,7 +129,7 @@ const NavBar = () => {
               </Link>
               <a
                 href={resume}
-                download="AbhilashThankachan-ReactJS.pdf"
+                download="Eldhose-M-Peter Resume.pdf"
                 className="nav-link"
                 onClick={() => {
                   setIsNavOpen(!isNavOpen);

@@ -1,6 +1,6 @@
 import { ProfileWrapper } from "./ProfileCard.styled";
 import { useSelector } from "react-redux";
-import avatar from "../../assets/abhilash.jpg";
+import avatar from "../../assets/eldhose.JPEG";
 
 const ProfileCard = () => {
   const name = useSelector((state) => state.name);
@@ -12,6 +12,10 @@ const ProfileCard = () => {
       <div className="d-flex flex-column-reverse align-items-center flex-lg-row align-items-lg-center">
         <img
           src={avatar}
+          style={{
+            width: "300px",
+            height: "300px",
+          }}
           alt="Ariful Alam"
           className="rounded-circle z-depth-2"
         />

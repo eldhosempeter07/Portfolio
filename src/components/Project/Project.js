@@ -36,15 +36,6 @@ const Project = () => {
                 >
                   Live Demo
                 </a>
-
-                <a
-                  href={item.codeLink}
-                  className="btn btn-success codeButton"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Code
-                </a>
               </div>
             </div>
           );

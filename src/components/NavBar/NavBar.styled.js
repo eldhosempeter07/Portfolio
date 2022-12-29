@@ -24,8 +24,8 @@ export const StyleWrapper = styled.div`
     display: none;
   }
 
-  .navbar-nav .nav-link {
-    /* color: ${(props) => props.theme.fontColor} !important; */
+  .nav-link {
+     color: ${(props) => props.theme.fontColor} !important; */
     color: ${(props) => props.theme.designColor};
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -37,7 +37,8 @@ export const StyleWrapper = styled.div`
       color: ${(props) => props.theme.fontColor};
     }
     &.active {
-      border-left: solid 0.3rem ${(props) => props.theme.designColor} !important;
+      border-left: solid 0.3rem ${(props) =>
+        props.theme.designColor} !important;
       color: ${(props) => props.theme.fontColor} !important;
       text-decoration: none !important;
 
