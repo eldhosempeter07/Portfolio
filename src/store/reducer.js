@@ -4,14 +4,20 @@ import projectImages from "../constants/images";
 const initialState = {
   themeName: "",
   name: "Eldhose M Peter",
-  designation: "Front End Developer",
+  designation: "Software Developer",
   profileSummary: `I am a self directed and motivated software developer,
 working eﬀectively in dynamic environment, where I can
 apply my knowledge and skills for continuous improvement.`,
   linkedin: "https://www.linkedin.com/in/eldhose-m-peter-48867411a/",
   github: "https://github.com/eldhosempeter07",
-  emailId: "eldhosempeter07@gmail.com",
+  emailId: "eldhosempeter19@gmail.com",
   educationDetails: [
+    {
+      educationName: "Post graduation Diploma",
+      collegeName: "Conestoga College ",
+      year: "2023-present",
+      location: "Kitchener, Canada" ,
+    },
     {
       educationName: "Master of Computer Applications",
       collegeName: "College of Engineering Trivandrum",
@@ -28,7 +34,7 @@ apply my knowledge and skills for continuous improvement.`,
     },
     {
       educationName: "Higher Secondary Education",
-      collegeName: "ST Ignatius Higher Secondary School",
+      collegeName: "St Ignatius Higher Secondary School",
       year: "2012-2014",
       location: "Kanjiramattom, Kerala",
       details: `Passed with a 82.4% from Board of Higher Secondary Education, Kerala`,
@@ -63,17 +69,7 @@ apply my knowledge and skills for continuous improvement.`,
         \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, axios
         `,
     },
-    {
-      designation: "Junior Software Engineer",
-      companyName: "Clado Solutions",
-      year: "10/2019-09/2021",
-      location: "Kochi, India",
-      details: `
-        • Engaged in performance optimization on the JS/TS applications and pixel perfect conversion of design to code.
-        • Managed design, functional approach for UI delivery and worked on major severity issues. 
-        \n• Technology Used : React JS,  Redux-saga, SASS, Styled-Components,react-bootstrap, axios
-        `,
-    },
+  
   ],
   projects: [
     {

@@ -8,7 +8,6 @@ import { THEMES } from "../../constants/theme";
 import { changeTheme } from "../../actions/themeActions";
 import { Link } from "react-scroll";
 import resume from "../../assets/resume/Eldhose-M-Peter Resume.pdf";
-import logo from "../../assets/Ab_icon.png";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
