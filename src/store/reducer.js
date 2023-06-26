@@ -16,7 +16,7 @@ apply my knowledge and skills for continuous improvement.`,
       educationName: "Post graduation Diploma",
       collegeName: "Conestoga College ",
       year: "2023-present",
-      location: "Kitchener, Canada" ,
+      location: "Kitchener, Canada",
     },
     {
       educationName: "Master of Computer Applications",
@@ -51,7 +51,7 @@ apply my knowledge and skills for continuous improvement.`,
     {
       designation: "Software Engineer",
       companyName: "Neoito Private Limited",
-      year: "06/2020-present",
+      year: "06/2022 - 05/2023",
       location: "Kochi, India",
       details: `• Worked on UI development for a dashboard for Business Administrators using React JS.
       • Worked on a project that aims to generate a website for a business purpose based on user input.
@@ -69,7 +69,6 @@ apply my knowledge and skills for continuous improvement.`,
         \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, axios
         `,
     },
-  
   ],
   projects: [
     {
