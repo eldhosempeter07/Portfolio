@@ -15,7 +15,7 @@ apply my knowledge and skills for continuous improvement.`,
     {
       educationName: "Post graduation Diploma",
       collegeName: "Conestoga College ",
-      year: "2023-present",
+      year: "2023",
       location: "Kitchener, Canada",
     },
     {
@@ -68,6 +68,16 @@ apply my knowledge and skills for continuous improvement.`,
         • Worked on a web application which provides pet caring, pet clinic booking and shopping services for pets
         \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, axios
         `,
+    },
+    {
+      designation: "Junior Software Engineer",
+      companyName: "Cladio Solutions",
+      year: "07/2020 - 02/2021",
+      location: "Kochi, India",
+      details: `•Designed, coded, tested, and debugged applications, ensuring functionality and user experience met high standards.
+      •	Collaborated with Founder, UI designers, and team members to align product with company strategy and enhance software solutions.
+      •	Played a key role in testing and deploying platform updates, minimizing disruptions and maintaining seamless operations.
+      \n• Technology Used : React JS, Node JS, Next JS, Redux, bootstrap, axios`,
     },
   ],
   projects: [

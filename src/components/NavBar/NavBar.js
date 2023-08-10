@@ -126,17 +126,6 @@ const NavBar = () => {
               >
                 Contact
               </Link>
-              <a
-                href={resume}
-                download="Eldhose-M-Peter Resume.pdf"
-                className="nav-link"
-                onClick={() => {
-                  setIsNavOpen(!isNavOpen);
-                }}
-              >
-                Resume
-                <HiCloudDownload className="download-icon" />
-              </a>
             </Nav>
             {themeName === THEMES.DARK ? (
               <MdNightlight
