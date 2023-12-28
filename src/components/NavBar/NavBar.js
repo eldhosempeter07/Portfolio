@@ -59,20 +59,6 @@ const NavBar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <Link
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-                className="nav-link"
-                onClick={() => {
-                  setIsNavOpen(!isNavOpen);
-                }}
-              >
-                Skills
-              </Link>
-
-              <Link
                 to="experience"
                 spy={true}
                 smooth={true}

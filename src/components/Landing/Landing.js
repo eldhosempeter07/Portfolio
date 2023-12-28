@@ -16,7 +16,7 @@ const Landing = (props) => {
       <BodyWrapper>
         <div className="container-fluid d-flex flex-column align-items-center">
           <ProfileCard />
-          <Skill />
+          {/* <Skill /> */}
           <WorkExperience />
           <Project />
           <Education />

@@ -25,27 +25,27 @@ apply my knowledge and skills for continuous improvement.`,
       location: "Trivandrum, Kerala",
       details: `Graduated with a 7.42 GPA from APJ Abdul Kalam Technological University, Kerala`,
     },
-    {
-      educationName: "Bachelor of Computer Applications",
-      collegeName: "Baselious Poulose II Catholicos College",
-      year: "2014-2017",
-      location: "Piravom, Kerala",
-      details: `Graduated with a 7.32 GPA from Mahatma Gandhi University, Kottayam`,
-    },
-    {
-      educationName: "Higher Secondary Education",
-      collegeName: "St Ignatius Higher Secondary School",
-      year: "2012-2014",
-      location: "Kanjiramattom, Kerala",
-      details: `Passed with a 82.4% from Board of Higher Secondary Education, Kerala`,
-    },
-    {
-      educationName: "High School Education",
-      collegeName: "Georgian Academy English School",
-      year: "2011-2012",
-      location: "Thiruvankulam, Kerala",
-      details: `Passed with a 94% from Board of Public Examination, Kerala`,
-    },
+    // {
+    //   educationName: "Bachelor of Computer Applications",
+    //   collegeName: "Baselious Poulose II Catholicos College",
+    //   year: "2014-2017",
+    //   location: "Piravom, Kerala",
+    //   details: `Graduated with a 7.32 GPA from Mahatma Gandhi University, Kottayam`,
+    // },
+    // {
+    //   educationName: "Higher Secondary Education",
+    //   collegeName: "St Ignatius Higher Secondary School",
+    //   year: "2012-2014",
+    //   location: "Kanjiramattom, Kerala",
+    //   details: `Passed with a 82.4% from Board of Higher Secondary Education, Kerala`,
+    // },
+    // {
+    //   educationName: "High School Education",
+    //   collegeName: "Georgian Academy English School",
+    //   year: "2011-2012",
+    //   location: "Thiruvankulam, Kerala",
+    //   details: `Passed with a 94% from Board of Public Examination, Kerala`,
+    // },
   ],
   workExperience: [
     {
@@ -69,7 +69,6 @@ apply my knowledge and skills for continuous improvement.`,
         \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, axios
         `,
     },
-
   ],
   projects: [
     {
