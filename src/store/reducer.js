@@ -15,8 +15,9 @@ apply my knowledge and skills for continuous improvement.`,
     {
       educationName: "Post graduation Diploma",
       collegeName: "Conestoga College ",
-      year: "2023",
+      year: "2024",
       location: "Kitchener, Canada",
+      details: "Graduated with a 3.62/4  GPA ",
     },
     {
       educationName: "Master of Computer Applications",

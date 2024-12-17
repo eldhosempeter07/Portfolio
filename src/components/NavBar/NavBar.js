@@ -3,11 +3,11 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { StyleWrapper } from "./NavBar.styled";
 import { MdNightlight } from "react-icons/md";
 import { WiDaySunny } from "react-icons/wi";
-import { HiCloudDownload } from "react-icons/hi";
+// import { HiCloudDownload } from "react-icons/hi";
 import { THEMES } from "../../constants/theme";
 import { changeTheme } from "../../actions/themeActions";
 import { Link } from "react-scroll";
-import resume from "../../assets/resume/Eldhose-M-Peter Resume.pdf";
+// import resume from "../../assets/resume/EldhoseMannullilPeter.pdf";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -71,7 +71,7 @@ const NavBar = () => {
               >
                 Experience
               </Link>
-              <Link
+              {/* <Link
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -83,7 +83,7 @@ const NavBar = () => {
                 }}
               >
                 Projects
-              </Link>
+              </Link> */}
 
               <Link
                 to="education"
@@ -115,6 +115,7 @@ const NavBar = () => {
             </Nav>
             {themeName === THEMES.DARK ? (
               <MdNightlight
+                style={{ cursor: "pointer" }}
                 className="theme-icon"
                 onClick={changeThemeName}
                 data-toggle="tooltip"
@@ -123,6 +124,7 @@ const NavBar = () => {
               />
             ) : (
               <WiDaySunny
+                style={{ cursor: "pointer" }}
                 className="theme-icon"
                 onClick={changeThemeName}
                 data-toggle="tooltip"
