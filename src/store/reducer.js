@@ -86,20 +86,20 @@ apply my knowledge and skills for continuous improvement.`,
       description:
         "Flavour Fleet is a web-based restaurant management platform that simplifies order processing, inventory tracking, and customer interactions.",
     },
-    {
-      projectName: "Tech Club",
-      techStack: [
-        "next js",
-        "node js",
-        "react-redux",
-        "redux-saga",
-        "tailwind",
-      ],
-      imageUrl: projectImages.tech,
-      visitLink: "https://techclub.neoito.com/",
-      description:
-        "Tech club is a collective of passionate creators who just love to connect peers with the masters of their field",
-    },
+    // {
+    //   projectName: "Tech Club",
+    //   techStack: [
+    //     "next js",
+    //     "node js",
+    //     "react-redux",
+    //     "redux-saga",
+    //     "tailwind",
+    //   ],
+    //   imageUrl: projectImages.tech,
+    //   visitLink: "https://techclub.neoito.com/",
+    //   description:
+    //     "Tech club is a collective of passionate creators who just love to connect peers with the masters of their field",
+    // },
   ],
 };
 
