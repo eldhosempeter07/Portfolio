@@ -18,7 +18,7 @@ const Landing = (props) => {
           <ProfileCard />
           {/* <Skill /> */}
           <WorkExperience />
-          {/* <Project /> */}
+          <Project />
           <Education />
           <SocialMedia />
           <h6 className="devloper-name">

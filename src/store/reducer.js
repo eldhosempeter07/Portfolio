@@ -73,20 +73,18 @@ apply my knowledge and skills for continuous improvement.`,
   ],
   projects: [
     {
-      projectName: "Paw Walker",
+      projectName: "Flavour Fleet",
       techStack: [
         "react js",
-        "python",
-        "react-redux",
-        "styled-components",
-        "react-bootstrap",
+        "react-context",
+        "tailwind",
         "material-ui",
-        "axios",
+        "firebase",
       ],
-      imageUrl: projectImages.paw,
-      visitLink: "https://www.pawwalker.in/",
+      imageUrl: projectImages.flavourfleet,
+      visitLink: "https://flavourzfleet.vercel.app/",
       description:
-        "Paw walker is a web application which provides pet caring, pet clinic booking and shopping services for pets..",
+        "Flavour Fleet is a web-based restaurant management platform that simplifies order processing, inventory tracking, and customer interactions.",
     },
     {
       projectName: "Tech Club",
