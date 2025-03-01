@@ -22,7 +22,6 @@ apply my knowledge and skills for continuous improvement.`,
     {
       educationName: "Master of Computer Applications",
       collegeName: "College of Engineering Trivandrum",
-      year: "2017-2020",
       location: "Trivandrum, Kerala",
       details: `Graduated with a 7.42 GPA from APJ Abdul Kalam Technological University, Kerala`,
     },
@@ -52,18 +51,18 @@ apply my knowledge and skills for continuous improvement.`,
     {
       designation: "Software Engineer",
       companyName: "Neoito Private Limited",
-      year: "06/2022 - 05/2023",
-      location: "Kochi, India",
+      year: "2022 - 2023",
+      location: "Kochi",
       details: `• Worked on UI development for a dashboard for Business Administrators using React JS.
       • Worked on a project that aims to generate a website for a business purpose based on user input.
      • Created complex UI designs using class-based and functional components. 
       \n• Technology Used : React JS, Node JS, Next JS, Redux, tailwind, axios`,
     },
     {
-      designation: "Javascript Developer",
+      designation: "Full Stack Developer",
       companyName: "Appadore Private Limited",
-      year: "03/2021-05/2022",
-      location: "Kochi, India",
+      year: "2021- 2022",
+      location: "Kochi",
       details: `
         • Worked on a project publishes news articles about the updated apps about messej mobile chat application.
         • Worked on a web application which provides pet caring, pet clinic booking and shopping services for pets
@@ -73,10 +72,19 @@ apply my knowledge and skills for continuous improvement.`,
   ],
   projects: [
     {
+      projectName: "CogniPod",
+      techStack: ["react js", "react-context", "tailwind"],
+      imageUrl: projectImages.cognipod,
+      visitLink: "https://cognipod.vercel.app",
+      description:
+        "Cognipod is a collaborative virtual study platform designed to help students connect, share resources, and learn together in real-time through groups and study sessions",
+    },
+
+    {
       projectName: "Flavour Fleet",
       techStack: [
         "react js",
-        "react-context",
+        "react-redux",
         "tailwind",
         "material-ui",
         "firebase",
@@ -86,20 +94,6 @@ apply my knowledge and skills for continuous improvement.`,
       description:
         "Flavour Fleet is a web-based restaurant management platform that simplifies order processing, inventory tracking, and customer interactions.",
     },
-    // {
-    //   projectName: "Tech Club",
-    //   techStack: [
-    //     "next js",
-    //     "node js",
-    //     "react-redux",
-    //     "redux-saga",
-    //     "tailwind",
-    //   ],
-    //   imageUrl: projectImages.tech,
-    //   visitLink: "https://techclub.neoito.com/",
-    //   description:
-    //     "Tech club is a collective of passionate creators who just love to connect peers with the masters of their field",
-    // },
   ],
 };
 

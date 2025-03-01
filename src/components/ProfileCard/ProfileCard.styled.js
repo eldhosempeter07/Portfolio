@@ -14,14 +14,14 @@ export const ProfileWrapper = styled.div`
   .designationWrapper {
     text-align: start;
     margin: 0.5rem 2rem 0rem 2rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   .profileSummaryWrapper {
     margin-top: 2rem;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
   }
   img {

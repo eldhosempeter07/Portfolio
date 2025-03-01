@@ -13,8 +13,8 @@ const ProfileCard = () => {
         <img
           src={avatar}
           style={{
-            width: "300px",
-            height: "300px",
+            width: "250px",
+            height: "250px",
           }}
           alt="Profile Pic"
           className="rounded-circle z-depth-2"
