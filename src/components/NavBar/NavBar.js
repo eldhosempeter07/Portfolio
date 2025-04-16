@@ -11,19 +11,19 @@ import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [themeName, setThemeName] = useState(THEMES.DARK);
-  const [toggleClass, setToggleClass] = useState("navbar-light");
-  const changeThemeName = () => {
-    changeTheme(themeName);
-    if (themeName === THEMES.DARK) {
-      setThemeName(THEMES.LIGHT);
-      setToggleClass("navbar-dark");
-    } else {
-      setThemeName(THEMES.DARK);
-      setToggleClass("navbar-light");
-    }
-    setIsNavOpen(!isNavOpen);
-  };
+  // const [themeName, setThemeName] = useState(THEMES.DARK);
+  // const [toggleClass, setToggleClass] = useState("navbar-light");
+  // const changeThemeName = () => {
+  //   changeTheme(themeName);
+  //   if (themeName === THEMES.DARK) {
+  //     setThemeName(THEMES.LIGHT);
+  //     setToggleClass("navbar-dark");
+  //   } else {
+  //     setThemeName(THEMES.DARK);
+  //     setToggleClass("navbar-light");
+  //   }
+  //   setIsNavOpen(!isNavOpen);
+  // };
 
   return (
     <StyleWrapper>
@@ -52,10 +52,7 @@ const NavBar = () => {
               Home
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className={toggleClass}
-          />
+
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <Link
@@ -71,7 +68,7 @@ const NavBar = () => {
               >
                 Experience
               </Link>
-              {/* <Link
+              <Link
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -83,7 +80,7 @@ const NavBar = () => {
                 }}
               >
                 Projects
-              </Link> */}
+              </Link>
 
               <Link
                 to="education"
@@ -113,25 +110,13 @@ const NavBar = () => {
                 Contact
               </Link>
             </Nav>
-            {themeName === THEMES.DARK ? (
-              <MdNightlight
-                style={{ cursor: "pointer" }}
-                className="theme-icon"
-                onClick={changeThemeName}
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="Change Theme"
-              />
-            ) : (
-              <WiDaySunny
-                style={{ cursor: "pointer" }}
-                className="theme-icon"
-                onClick={changeThemeName}
-                data-toggle="tooltip"
-                data-placement="bottom"
-                title="Change Theme"
-              />
-            )}
+            {/* <MdNightlight
+              style={{ cursor: "pointer" }}
+              className="theme-icon"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Change Theme"
+            /> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
