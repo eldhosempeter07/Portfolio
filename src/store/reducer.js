@@ -74,7 +74,7 @@ apply my knowledge and skills for continuous improvement.`,
     {
       designation: "Full Stack Developer",
       companyName: "Envestnet",
-      year: "August 2021- October 2022",
+      year: "August 2017- October 2020",
       location: "Trivandrum, Kerala, India",
       details: `
         •  Built a financial analytics platform featuring real-time charts, custom reports, and predictive insights using React.js and Node.
