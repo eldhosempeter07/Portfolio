@@ -62,28 +62,30 @@ apply my knowledge and skills for continuous improvement.`,
     {
       designation: "Full Stack Developer",
       companyName: "Appadore Private Limited",
-      year: "March 2021- June 2022",
+      year: "June 2020- June 2022",
       location: "Kochi, Kerala, India",
       details: `
         • Worked on a project publishes news articles about the updated apps about messej mobile chat application.
+        •  Engineered a cloud-based FinTech application, overseeing both front-end and back-end components. 
+
         • Created a web application which provides pet caring, pet clinic booking and shopping services for pets
         \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, Axios, Node JS, Postgres, MongoDB
         `,
     },
 
-    {
-      designation: "Full Stack Developer",
-      companyName: "Envestnet",
-      year: "August 2017- October 2020",
-      location: "Trivandrum, Kerala, India",
-      details: `
-        •  Built a financial analytics platform featuring real-time charts, custom reports, and predictive insights using React.js and Node.
-        •  Engineered a cloud-based FinTech application, overseeing both front-end and back-end components. 
-          Optimized MongoDB and MySQL databases for performance and scalability. 
-        •  Led the development of a web application for an ESG consulting firm, utilizing React.js for UI and Node.js for backend services.
-        \n• Technology Used : React JS, Redux, SASS, Bootstrap, Node JS, Axios, Postgres, MongoDB
-        `,
-    },
+    // {
+    //   designation: "Full Stack Developer",
+    //   companyName: "Envestnet",
+    //   year: "August 2017- October 2020",
+    //   location: "Trivandrum, Kerala, India",
+    //   details: `
+    //     •  Built a financial analytics platform featuring real-time charts, custom reports, and predictive insights using React.js and Node.
+    //     •  Engineered a cloud-based FinTech application, overseeing both front-end and back-end components.
+    //       Optimized MongoDB and MySQL databases for performance and scalability.
+    //     •  Led the development of a web application for an ESG consulting firm, utilizing React.js for UI and Node.js for backend services.
+    //     \n• Technology Used : React JS, Redux, SASS, Bootstrap, Node JS, Axios, Postgres, MongoDB
+    //     `,
+    // },
   ],
   projects: [
     {
